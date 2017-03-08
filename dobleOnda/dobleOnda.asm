@@ -1,5 +1,5 @@
 ;AUTOR: Lucas Gimenez
-;FECHA: 4/3/2017
+;FECHA: 4/03/2017
 ;Universidad Nacional de Moreno   
 
 ;*****************************************************************
