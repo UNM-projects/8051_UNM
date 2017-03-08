@@ -9,7 +9,7 @@ For example: 8051_UNM/Libraries/ondaCudrada/ has a repository called "ondaCuadra
 We hope you find it useful and can collaborate!
 
 Good luck and have fun ;D!
-
+***********************************************************************************************************************************
 Este repositorio incluye librerias y códigos fuente para el microcontrolador 8051. Todos los códigos están hechos por estudiantes de la UNM.
 
 Aquí están las últimas versiones de todos los códigos.
