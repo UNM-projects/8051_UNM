@@ -1,0 +1,10 @@
+Este código escrito en Assembler corresponde a una onda cuadrada de 1KHz que será
+proporcionada a través del pin 0 del puerto 1, para el uC 8051.
+
+Una onda cuadrada de éstas caraterísticas requiere de un tiempo en "alto" igual a
+500uSeg y un tiempo en "bajo" también de 500uSeg. Esto último se hizo en las cargas,
+tanto altas como bajas, del timer 0. 
+
+También, se utiliza el modo de 16 bits para el timer, ya que, necesitamos esa cantidad
+de bits para lograr los tiempos requeridos.
+

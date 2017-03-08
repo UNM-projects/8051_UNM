@@ -1,0 +1,13 @@
+Este código escrito en Assembler fue implementado para controlar
+la temperatura interna de un horno.
+
+Dos sensores de temperatura están conectados a INT0 e INT1 y 
+proporcionan señales de CALIENTE y FRIO respectivamente, de tal
+manera que si la temperatura está por debajo de los 19°C el horno
+debe encenderse (se entiende que está en modo FRÍO) en cambio, si
+el horno está por encima de los 21°C debe apagarse (entendiendo 
+que se encuentra en su modo CALIENTE). De esta forma logramos 
+mantener la temperatura del horno en el rango [19, 21] °C.
+
+En este ejemplo se muestra el uso de las interrupciones externas
+del uC 8051.
