@@ -1,0 +1,16 @@
+Este ejemplo escrito en lenguaje Assembler, para la versión actual
+del uC 8051, corresponde al uso del temporizador 0 y 1 para la 
+generación de dos ondas cuadradas en simúultáneo.
+
+Por el pin 0 del puerto 1 obtenemos una onda cuadrada de 10Khz,
+mientras que por el pin 0 del puerto 2 obtenemos otra onda
+cuadrada pero en este caso con una frecuencia igual a 1Khz.
+
+Aclaración: Si la onda se comprueba con un instrumento de 
+medición (Osciloscopio) conectándolo a los pines mencionados,
+podemos ver que la onda no es exactamente igual a las frecuencias
+que indicamos aquí. Esto se debe a que en este ejemplo no se 
+tuvieron en cuenta los errores de tiempo producidos por los ciclos
+de instrucción. Para lograr ondas precisas, en cuanto a su 
+frecuencia, será necesario recalcular los valores de carga y
+recarga en ambos timers. 
